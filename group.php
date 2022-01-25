@@ -13,7 +13,7 @@ if ($_SESSION["admin"] == TRUE){
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Invoice <small>Some examples to get you started</small></h3>
+                <h3>Group <small>List</small></h3>
               </div>
 
               <div class="title_right">
@@ -34,7 +34,7 @@ if ($_SESSION["admin"] == TRUE){
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Invoice Design <small>Sample user invoice design</small></h2>
+                    <h2>Group <small>List</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
