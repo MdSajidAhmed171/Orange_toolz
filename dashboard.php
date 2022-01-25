@@ -53,7 +53,7 @@ if ($_SESSION["admin"] == TRUE){
                           <div class="icon">
                           </div>
                           <?php
-                            $check_database_query2 = mysqli_query($conn, "SELECT COUNT(DISTINCT group_name) FROM valid_contact WHERE user_id = $user_id;");
+                            $check_database_query2 = mysqli_query($conn, "SELECT COUNT(DISTINCT group_name , file_name) FROM valid_contact WHERE user_id = $user_id ;");
 	                        //$check_login_query2 = mysqli_num_rows($check_database_query2);
                             $row = mysqli_fetch_assoc($check_database_query2);
                             $d=0;
