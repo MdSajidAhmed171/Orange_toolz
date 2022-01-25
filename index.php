@@ -16,8 +16,9 @@ if (isset($_SESSION["authen"])){
 <!-- /page content -->
 <?php
 } else{
+  
+  header("Location: login.php");
   ob_end_flush();
-  header("refresh:0; url=../login.php");
 }
 include 'footer.php'; 
 ?>     
