@@ -30,7 +30,7 @@
         <div class="animate form login_form">
           <section class="login_content">
             <form action="login_handler.php" method="POST">
-              <h1>Admin Login</h1>
+              <h1>Login</h1>
               <div>
                 <input type="text" name="log_email" class="form-control" value="" placeholder="Username" required="" />
               </div>
