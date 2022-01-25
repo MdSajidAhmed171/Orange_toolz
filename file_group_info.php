@@ -5,14 +5,14 @@ if ($_SESSION["admin"] == TRUE){
 
 }else{
     $user_id = $_SESSION['user_id'];
-    echo "......................".$user_id;
+    //echo "......................".$user_id;
 ?>      
 <!-- page content -->
 <div class="right_col" role="main">
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Invoice <small>Some examples to get you started</small></h3>
+                <h3>File & group <small>Info</small></h3>
               </div>
 
               <div class="title_right">
@@ -33,7 +33,7 @@ if ($_SESSION["admin"] == TRUE){
               <div class="col-md-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Invoice Design <small>Sample user invoice design</small></h2>
+                    <h2>File & group <small>Info</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
